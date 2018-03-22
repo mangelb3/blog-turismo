@@ -1,0 +1,22 @@
+.logo{
+  width: 50%;
+  height: ;
+}
+.titulo{
+  color: white;
+  text-align: left;
+}
+
+.contenido{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.perfil{
+  text-align: center;
+}
+.img-autor{
+  width: 50%;
+}
+.img-blog{
+  width: 50%;
+}
