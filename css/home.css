@@ -40,7 +40,7 @@ webkit-filter:opacity (50%);
   border-radius: 5px;
 }
 .perfil{
-  padding: 10px;
+  padding: 15px;
   text-align: center;
 }
 .img-autor{
@@ -48,4 +48,9 @@ webkit-filter:opacity (50%);
 }
 .img-blog{
   width: ;
+}
+@media only screen and (min-width: 993px){
+  form{
+    padding: 10Px;
+  }
 }
