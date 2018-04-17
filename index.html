@@ -16,16 +16,22 @@
   <body>
     <div class="contenedor">
       <div class="row">
-          <div class="col s12 light-blue darken-1"><!--color de fondo menu #039be5 light-blue darken-1-->
-            <div class="">
+          <div class="col s12 light-blue darken-1 "><!--color de fondo menu #039be5 light-blue darken-1-->
+            <div class="texto">
               <div class="col l3  offset-l1">
-                <img class="logo"src="img/logo.jpg" alt="logo ">
+                <img class="logo z-depth-3"src="img/logo.jpg" alt="logo ">
               </div>
-              <div class="col l8"> <!--Menú principal-->
+              <div class="col l8 hide-on-small-only"> <!--Menú principal pantallas medianas y grandes-->
                 <a class="btn waves-effect waves-light blue-grey"><i class="material-icons">place</i> INICIO</a>
                 <a class="btn waves-effect waves-light blue-grey"><i class="material-icons">location_on</i> ESTUVE EN...</a>
                 <a class="btn waves-effect waves-light blue-grey"><i class="material-icons">grade</i> MEJORES VIAJES</a>
                 <a class="btn waves-effect waves-light blue-grey"><i class="material-icons">feedback</i> RECOMENDACIONES</a>
+              </div>
+              <div class="col l8 hide-on-med-and-up"> <!--Menú principal pantallas pequeñas-->
+                <a class="btn waves-effect waves-light blue-grey"><i class="material-icons">place</i></a>
+                <a class="btn waves-effect waves-light blue-grey"><i class="material-icons">location_on</i></a>
+                <a class="btn waves-effect waves-light blue-grey"><i class="material-icons">grade</i></a>
+                <a class="btn waves-effect waves-light blue-grey"><i class="material-icons">feedback</i></a>
               </div>
               <div class="col l8">
                 <h3 class="titulo">Creando mi propio camino</h3>
@@ -101,13 +107,14 @@
         </div>
           <div class="row texto">
             <form class="col s12 l9 light-blue darken-1 white-text text-darken-2 ">
+              <h5>Deja tu comentario</h5>
               <div class="row texto">
-                <div class="col l6">
+                <div class="col s6 l6">
                   <i class="material-icons prefix">account_circle</i>
                   <input type="text" id="nombres">
                   <label for="nombres">Nombres:</label>
                 </div>
-                <div class="col l6">
+                <div class="col s6 l6">
                   <i class="material-icons prefix">drafts</i>
                   <input type="email" id="email">
                   <label form="email"data-error="wrong" data-success="right">Correo Electrónico:</label>
